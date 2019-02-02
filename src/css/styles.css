@@ -6,7 +6,18 @@ body {
   font-family: sans-serif;
   color: #4d4d4d;
 }
-
+  .custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
 a {
   color: #838c91;
 }

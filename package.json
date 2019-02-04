@@ -12,8 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jquery-ui-bundle": "^1.12.1-migrate",
-    "uniq": "^1.0.1"
+    "jquery-ui-bundle": "^1.12.1-migrate"
   },
   "devDependencies": {
     "html-webpack-plugin": "^3.2.0",

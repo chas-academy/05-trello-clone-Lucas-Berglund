@@ -184,7 +184,6 @@ const jtrello = (function() {
         newCard(value, listObject);
       });
     };
-    // TODO: Restore deadline date as well.
   }
 
   /* =================== Publika metoder nedan ================== */

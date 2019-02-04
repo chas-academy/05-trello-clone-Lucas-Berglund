@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
     <title>jQuery UI - Trello Clone Lucas</title>
-    <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
     <div class="board">
@@ -52,6 +51,20 @@
                 </ul>
             </div>
         </div>
+
+        <div id="card-dialog" title="Card Info">
+            <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">Card Text</a></li>
+                    <li><a href="#tabs-2">Date</a></li>
+                </ul>
+                <div id="tabs-1"></div>
+                <div id="tabs-2">
+                    <p>Date:<input type="text" id="datepicker"></p>
+                </div>
+            </div>
+        </div>
+
         <div class="column">
             <div class="list">
                 <div class="list-header">
@@ -73,26 +86,8 @@
                 </ul>
             </div>
         </div>
+    </div>
 
-    </div>
-    
 
-    <div id="list-creation-dialog" title="Create new list" style="height: 40px">
-        <form id="create-list-form"> 
-            <input type="text" name="title" placeholder="List title" />
-        </form>
-    </div>
-    <div id="card-dialog" title="Card Info">
-        <div id="tabs">
-            <ul>
-                <li><a href="#tabs-1">Card Text</a></li>
-                <li><a href="#tabs-2">Date</a></li>
-            </ul>
-            <div id="tabs-1"></div>
-            <div id="tabs-2">
-                <p>Date:<input type="text" id="datepicker"></p>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
